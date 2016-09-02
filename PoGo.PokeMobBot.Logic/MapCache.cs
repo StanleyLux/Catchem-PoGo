@@ -85,7 +85,7 @@ namespace PoGo.PokeMobBot.Logic
                    );
             }
             baseFortDatas = pokeStops;
-            baseFortDatas = gyms;
+            baseGymDatas = gyms;
             _FortDatas.Clear();
             _GymDatas.Clear();
             foreach (var fort in pokeStops)
